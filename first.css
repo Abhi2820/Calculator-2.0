@@ -1,0 +1,156 @@
+body{
+	margin:0;
+	padding:0;
+	background :rgb(1, 1, 67);
+}
+.calci{
+	width : 300px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	position :absolute;
+	top: 50%;
+	left:50%;
+	transform :translate(-50%,-50%);
+	transition:0.25px;
+	text-align:center;
+	background-color: #71888c;
+	border-radius:30px ;
+
+	
+	
+}
+#display{
+	border:none;
+	background:rgb(46, 60, 72);
+	border-radius:30px;
+	width:245px;
+	height :80px;
+	font-size: 40px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: 200px;
+	font-style: oblique;
+	color: aliceblue;
+
+	margin:auto;
+	border:5px solid white;
+	
+}
+.btlayout{
+	width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 35;
+	font-weight:  :300;
+	border-radius:30px;
+    background: lightgray;
+
+	
+}
+.operator{
+	width:60px;
+	height:60px ;
+	padding-top: -1;
+	border: none;
+	font-family: sans-serif;
+	font-size: 20;
+	font-weight:  :300;
+	border-radius:30px;
+	margin:1.5;
+	transition: 0.25px;
+	cursor:pointer;
+	background:skyblue;
+	
+
+}
+.operator:hover{
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight:bolder;
+	border-radius:30px;
+	background: #7fbcea;
+}
+.btlayoutx{
+	width :125px;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 35;
+	font-weight:  :300;
+	border-radius:30px;
+	background: lightgray;
+	
+}
+.btlayoutc:hover{
+	background: rgb(229, 103, 143);
+	width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 20px ;
+	
+	font-weight:bold;
+	border-radius:30px;
+}
+.btlayoutc{width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 35;
+	font-weight:  :300;
+	border-radius:30px;
+    background:lightpink;}
+
+.btlayout:hover{width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight:bolder;
+	border-radius:30px;
+background-color: cadetblue;
+}
+.btlayoute:hover{width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight:bolder;
+	border-radius:30px;
+background-color: rgb(228, 247, 80);
+}
+.btlayoute{
+	width:60px ;
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 35;
+	font-weight:  :300;
+	border-radius:30px;
+	background-color:lightyellow;
+}
+.btlayoutx:hover{
+	height:60px;
+	padding-top: -1;
+	border: 2px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight:bolder;
+	border-radius:30px;
+background-color: cadetblue;
+}
+.z{margin-top: 20px;
+	padding-top: 0px;
+	margin-bottom: -25px;
+	text-align: center;
+}

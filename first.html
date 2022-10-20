@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/hp/coding/MyProjects/Webdeve/Calculator/first.html -->
+<html><head>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="first.css">
+	<title>SIMPLE CALCULATOR</title>
+</head>	
+<body>
+	
+</body>
+<form name="form1" class="calci" action="first.html" method="post">
+		
+<input type="text" name="answer" id="display">
+<br></br>
+<input type="button" class="btlayoutc"value=" C " onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-form1.answer.value.length)  "> 
+<input type="button" class="btlayoute" value=" < " onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1) "> 
+<input type="button" class="btlayout" value=" 00" onclick="form1.answer.value+='00' "> 
+<input type="button" class="operator" value=" ÷ " onclick="form1.answer.value+='/' "> 
+<br></br>
+<input type="button" class="btlayout" value=" 7 " onclick="form1.answer.value+='7' "> 
+<input type="button" class="btlayout" value=" 8 " onclick="form1.answer.value+='8' "> 
+<input type="button" class="btlayout" value=" 9 " onclick="form1.answer.value+='9' "> 
+<input type="button" class="operator" value=" × " onclick="form1.answer.value+='*' "> 
+<br></br>
+<input type="button" class="btlayout" value=" 4 " onclick="form1.answer.value+='4' "> 
+<input type="button" class="btlayout" value=" 5 " onclick="form1.answer.value+='5' "> 
+<input type="button" class="btlayout" value=" 6 " onclick="form1.answer.value+='6' "> 
+<input type="button" class="operator" value=" - " onclick="form1.answer.value+='-' "> 
+<br></br>
+<input type="button" class="btlayout" value=" 1 " onclick="form1.answer.value+='1'"> 
+<input type="button" class="btlayout" value=" 2 " onclick="form1.answer.value+='2' "> 
+<input type="button" class="btlayout" value=" 3 " onclick="form1.answer.value+='3'"> 
+<input type="button" class="operator" value=" + " onclick="form1.answer.value+='+' "> 
+<br></br>
+<input type="button" class="btlayoutx" value="  0 " onclick="form1.answer.value+='0'"> 
+<input type="button" class="btlayout" value=" . " onclick="form1.answer.value+='."> 
+<input type="button" class="operator" value=" = " onclick="form1.answer.value=eval(form1.answer.value) "> 
+<marquee class="z">   Created by  :<br>Abhisek Aute </marquee>
+</form>
+</html>
